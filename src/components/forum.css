@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'Black Mango Bold';
+    src: url('fonts/BlackMango-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Ensure .forum-container has margin-top and is positioned correctly */
+.forum-page {
+    display: flex; /* Enable flexbox layout for the parent container */
+    justify-content: center; /* Center horizontally */
+    align-items: flex-start; /* Align at the top (so margin-top works) */
+    min-height: 100vh; /* Make sure the container takes up the full height of the viewport */
+    padding-top: 50px; /* Add top padding if needed for spacing */
+}
+
+/* Ensure .forum-container has margin-top and is positioned correctly */
+.forum-container {
+    max-width: 350px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px; /* Adjust the margin-top value as needed */
+    width: 50%; /* Adjust width as needed */
+    margin-left: 9%;
+}
+
+/* Optional: Add some responsiveness */
+@media (max-width: 768px) {
+    .forum-container {
+        width: 90%; /* Make it take more width on small screens */
+    }
+}
+
+/* Style for forum page header */
+.forum-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Black Mango Bold', sans-serif;
+    color: #004085;
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+.forum-container button {
+    background-color: #004085;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin: 15px auto;
+    
+}
+
+.forum-container select {
+    width: 101.5%; /* Ensures the dropdown takes up most of the container */
+    font-family: 'Lato', sans-serif; /* Consistent font */
+    font-size: 16px; /* Size of the text */
+}
+
+.forum-container input[type="text"], textarea, select {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+/* Style for posts-list as a container */
+.posts-list {
+    width: 75%; 
+    margin: 50px auto; /* Center the posts list */
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 9%;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+
+/* Style for posts-list container */
+.posts-list {
+    width: 75%; 
+    margin: 50px auto; /* Center the posts list */
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 9%;
+    margin-left: 30px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.posts-list h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Black Mango Bold', sans-serif;
+    color: #004085;
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+/* Style for individual posts within the posts-list */
+.post-card {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Add space between each post */
+    border-left: 4px solid #004085; /* Optional left border to highlight post */
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Add a hover effect to posts */
+.post-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Slightly increase shadow on hover */
+}
+
+/* Optional: Add a line (border) between posts */
+.post-card + .post-card {
+    border-top: 2px solid #ccc; /* A thin line between posts */
+}
+
+/* Title and content styling inside each post */
+.post-card h4 {
+    font-size: 1.25rem; /* Larger font for title */
+    color: #004085;
+    margin-bottom: 10px;
+}
+
+.post-card p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Make sure author text is styled */
+.post-card small {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.875rem;
+    color: #777;
+}
+
+/* Optional: Add responsiveness for smaller screens */
+@media (max-width: 768px) {
+    .posts-list {
+        width: 90%;
+    }
+    .post-card {
+        width: 100%; /* Ensure posts take up full width on small screens */
+    }
+}
