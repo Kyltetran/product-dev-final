@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { HashRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import { getFirestore, collection, getDocs, addDoc, query, orderBy, serverTimestamp } from "firebase/firestore"; 
 import { app } from '../firebase'; 
 import './style.css'; // Import your styles for the forum page

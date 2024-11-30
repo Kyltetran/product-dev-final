@@ -1,6 +1,7 @@
 // src/components/HomePage.js
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import VietnamMap from './VietnamMap';
 import './style.css'; // Import your CSS for styling
 
