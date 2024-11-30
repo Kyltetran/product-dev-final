@@ -62,13 +62,13 @@ const ForumPage = () => {
         <div className="nav-links">
           <Link to="/home">Home</Link>
           <Link to="/forum" id="forum-link" className="active">Forum</Link>
-          <Link>Local Matching</Link>
-          <Link>Plan Food Tour</Link>
-          <Link href="#pricing">Pricing</Link>
+          <a href="#local-matching">Local Matching</a>
+          <a href="#plan-food-tour">Plan Food Tour</a>
+          <a href="#pricing">Pricing</a>
         </div>
         <div className="auth-links">
-          <Link>Sign Up</Link>
-          <Link>Log In</Link>
+          <a href="#sign-up">Sign Up</a>
+          <a href="#log-in">Log In</a>
         </div>
       </div>
 
