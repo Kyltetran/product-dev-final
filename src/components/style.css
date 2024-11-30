@@ -19,7 +19,7 @@ body {
   width: 98%;
   z-index: 1000;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  font-family: 'Lato', sans-serif;
+  font-family: 'Calibri', sans-serif;
   font-weight: bold;
 }
 
@@ -96,7 +96,7 @@ body {
   font-size: 24px;
   color: #004085;
   margin-bottom: 10px;
-  font-family: 'Lato', sans-serif;
+  /* font-family: 'Calibri Bold', sans-serif; */
   font-weight: bold;
   text-align: center; /* Optional: center-align text */
   padding-right: 15%;
@@ -106,7 +106,7 @@ body {
   font-size: 16px;
   color: #333;
   line-height: 1.5;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Calibri', sans-serif;
   margin-bottom: 15px;
   text-align: center; /* Optional: center-align text */
   padding-right: 15%;
@@ -184,6 +184,23 @@ path {
   margin: 0;
 }
 
+/* font-face Calibri */
+@font-face {
+  font-family: 'Calibri';
+  src: url('fonts/calibri.ttf') format('truetype');
+  font-weight: regular;
+  font-style: normal;
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'Calibri Bold';
+  src: url('fonts/calibrib.ttf') format('truetype');
+  font-weight: regular;
+  font-style: normal;
+  margin: 0;
+}
+
 .intro-container {
   display: flex;
   flex-direction: column;
@@ -205,7 +222,7 @@ path {
 .intro-container p {
   padding: 0 15%;
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Calibri', sans-serif;
   font-weight: regular;
 }
 
@@ -237,7 +254,7 @@ path {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Calibri', sans-serif;
   font-weight: regular;
   margin: 5px;
 }
@@ -277,7 +294,7 @@ path {
   font-size: 16px;
   border: 1px solid #ddd;
   border-radius: 5px; /* Rounded corners */
-  font-family: 'Lato', sans-serif;
+  font-family: 'Calibri', sans-serif;
   box-sizing: border-box; /* Include padding and border in the element's total width and height */
   margin-bottom: 10px; /* Space between input and button */
 }
@@ -293,7 +310,7 @@ path {
   border-radius: 5px; /* Rounded corners */
   cursor: pointer;
   transition: 0.5s;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Calibri', sans-serif;
   box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
@@ -322,7 +339,7 @@ path {
   width: 50%; /* Could be more or less, depending on screen size */
   border-radius: 8px;
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Calibri', sans-serif;
 }
 
 /* Image inside the modal */
@@ -343,7 +360,7 @@ path {
   padding: 10px 20px; /* Add padding for a larger button */
   border: none; /* Remove border */
   border-radius: 5px; /* Rounded corners */
-  font-family: 'Lato', sans-serif; /* Use the same font as the modal */
+  font-family: 'Calibri', sans-serif; /* Use the same font as the modal */
   font-size: 14px; /* Adjust font size */
   cursor: pointer; /* Change cursor to pointer on hover */
   margin: 5px; /* Add margin between buttons */
@@ -394,7 +411,7 @@ path {
   display: flex;
   margin-top: 60px; /* Offset for fixed navbar */
   padding: 20px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Calibri', sans-serif;
   gap: 20px;
 }
 
@@ -613,7 +630,7 @@ label {
   margin-bottom: 15px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Calibri', sans-serif;
   font-size: 16px;
 }
 
@@ -623,6 +640,6 @@ label {
 
 .main-content .forum-actions .modal .modal-content select{
   width: 99%; /* Ensures the dropdown takes up most of the container */
-  font-family: 'Lato', sans-serif; /* Consistent font */
+  font-family: 'Calibri', sans-serif; /* Consistent font */
   font-size: 16px; /* Size of the text */
 }

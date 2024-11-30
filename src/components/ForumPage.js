@@ -63,12 +63,12 @@ const ForumPage = () => {
           <Link to="/home">Trang Chủ</Link>
           <Link to="/forum" id="forum-link" className="active">Diễn Đàn</Link>
           <a href="#local-matching">Kết Nối Bản Địa</a>
-          <a href="#plan-food-tour">Lên Kế Hoạch Tour Ẩm Thực</a>
-          <a href="#pricing">Bảng Giá</a>
+          <a>Lên Kế Hoạch Tour Ẩm Thực</a>
+          <a>Bảng Giá</a>
         </div>
         <div className="auth-links">
-          <a href="#sign-up">Đăng Ký</a>
-          <a href="#log-in">Đăng Nhập</a>
+          <a>Đăng Ký</a>
+          <a>Đăng Nhập</a>
         </div>
       </div>
 

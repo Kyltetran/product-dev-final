@@ -17,7 +17,7 @@
 /* Ensure .forum-container has margin-top and is positioned correctly */
 .forum-container {
     max-width: 350px;
-    background-color: white;
+    background-color: rgba(101, 101, 101, 0.1);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -38,13 +38,13 @@
     text-align: center;
     margin-bottom: 20px;
     font-family: 'Black Mango Bold', sans-serif;
-    color: #004085;
+    color: #d07e30;
     font-size: 35px;
     margin-top: 10px;
 }
 
 .forum-container button {
-    background-color: #004085;
+    background-color: #70381c;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -58,38 +58,39 @@
 
 .forum-container select {
     width: 101.5%; /* Ensures the dropdown takes up most of the container */
-    font-family: 'Lato', sans-serif; /* Consistent font */
+    font-family: 'Calibri', sans-serif; /* Consistent font */
     font-size: 16px; /* Size of the text */
 }
 
 .forum-container input[type="text"], textarea, select {
-    width: 95%;
+    width: 115%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 4px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Calibri', sans-serif;
     font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #a6a6a6;
 }
 
-/* Style for posts-list as a container */
-.posts-list {
-    width: 75%; 
-    margin: 50px auto; /* Center the posts list */
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-right: 9%;
-    margin-left: 30px;
-    margin-top: 60px;
+.forum-container textarea {
+    width: 115%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
+
+.forum-container select {
+    width: 123%;
+    min-width: 40%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
 
 /* Style for posts-list container */
 .posts-list {
     width: 75%; 
     margin: 50px auto; /* Center the posts list */
-    background-color: white;
+    background-color: rgba(101, 101, 101, 0.1);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -104,7 +105,7 @@
     text-align: center;
     margin-bottom: 20px;
     font-family: 'Black Mango Bold', sans-serif;
-    color: #004085;
+    color: #d07e30;
     font-size: 35px;
     margin-top: 10px;
 }
@@ -112,11 +113,11 @@
 /* Style for individual posts within the posts-list */
 .post-card {
     padding: 20px;
-    background-color: #f8f9fa;
+    background-color: rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(74, 74, 74, 0.1);
     margin-bottom: 20px; /* Add space between each post */
-    border-left: 4px solid #004085; /* Optional left border to highlight post */
+    border-left: 4px solid #70381c; /* Optional left border to highlight post */
     transition: box-shadow 0.3s ease-in-out;
 }
 
@@ -133,13 +134,13 @@
 /* Title and content styling inside each post */
 .post-card h4 {
     font-size: 1.25rem; /* Larger font for title */
-    color: #004085;
+    color: #d07e30;
     margin-bottom: 10px;
 }
 
 .post-card p {
     font-size: 1rem;
-    color: #555;
+    color: #d9d9d9;
     line-height: 1.5;
 }
 

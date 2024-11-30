@@ -37,7 +37,7 @@ const VietnamMap = () => {
             tooltip.textContent = region.getAttribute('title');
             region.style.cursor = 'pointer';
             // change color of region on hover
-            region.style.fill = '#b0b0b0'; // Change highlight color to gray
+            region.style.fill = '#6b4a37'; // Change highlight color to gray
           });
 
           // when mouse leaves the region, hide tooltip and reset color
@@ -222,7 +222,7 @@ const VietnamMap = () => {
             if (regionName === query) {
               found = true;
               // Highlight region
-              region.style.fill = '#b0b0b0'; // Change highlight color to gray
+              region.style.fill = '#6b4a37'; // Change highlight color to gray
 
               // Show tooltip below the region
               const bbox = region.getBoundingClientRect();
@@ -269,7 +269,7 @@ const VietnamMap = () => {
   return (
     <div>
       {/* SVG container */}
-      <div id="svg-container" className="map-container"></div>
+      <div id="svg-container" className="map-container" ></div>
 
       {/* Tooltip */}
       <div id="tooltip" className="tooltip"></div>

@@ -4,6 +4,8 @@ body {
   padding: 0;
   height: 150vh;
   font-family: Arial, sans-serif;
+  background-color: #08312e;
+  color: #fff;
 }
 
 /* Navigation bar styles */
@@ -11,7 +13,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #004085;
+  background-color: #d07e30;
   color: #fff;
   padding: 8px 20px;
   position: fixed;
@@ -19,7 +21,7 @@ body {
   width: 98%;
   z-index: 1000;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  font-family: 'Lato', sans-serif;
+  font-family: 'Calibri Bold', sans-serif;
   font-weight: bold;
 }
 
@@ -62,7 +64,7 @@ body {
 
 .navbar .auth-links a:hover {
   background-color: #fff;
-  color: #004085;
+  color: #d07e30;
 }
 
 /* Map Wrapper for side-by-side layout */
@@ -94,9 +96,9 @@ body {
 /* Info Container Text Styling */
 .info-container h2 {
   font-size: 24px;
-  color: #004085;
+  color: #d07e30;
   margin-bottom: 10px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Calibri Bold', sans-serif;
   font-weight: bold;
   text-align: center; /* Optional: center-align text */
   padding-right: 15%;
@@ -104,9 +106,9 @@ body {
 
 .info-container p {
   font-size: 16px;
-  color: #333;
+  color: #fff;
   line-height: 1.5;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Calibri', sans-serif;
   margin-bottom: 15px;
   text-align: center; /* Optional: center-align text */
   padding-right: 15%;
@@ -197,7 +199,7 @@ path {
 .intro-container h1 {
   font-family: 'Black Mango Bold', sans-serif;
   font-size: 48px;
-  color: #004085;
+  color: #d07e30;
   margin-top: 80px;
 }
 
@@ -205,7 +207,7 @@ path {
 .intro-container p {
   padding: 0 15%;
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Calibri', sans-serif;
   font-weight: regular;
 }
 
@@ -223,7 +225,7 @@ path {
 .question-container h2 {
   font-family: 'Black Mango Bold', sans-serif;
   font-size: 30px;
-  color: #004085;
+  color: #d07e30;
   margin-top: 0;
 }
 
@@ -231,26 +233,26 @@ path {
 .question-container button {
   padding: 10px 20px;
   font-size: 16px;
-  background-color: #004085;
+  background-color: #d07e30;
   color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Calibri', sans-serif;
   font-weight: regular;
   margin: 5px;
 }
 
 .question-container button:hover {
   background-color: #dcdcdc;
-  color: #004085;
+  color: #d07e30;
 }
 
 /* style their is border or a box surrounding the question-container */
 .question-container {
-  border-top: 1px solid rgba(2, 28, 56, 0.259);
-  border-bottom: 1px solid rgba(2, 28, 56, 0.259);
+  border-top: 1px solid rgba(130, 148, 167, 0.259);
+  border-bottom: 1px solid rgba(130, 148, 167, 0.259);
   padding-bottom: 45px;
   padding-top: 30px;
 }
@@ -277,7 +279,7 @@ path {
   font-size: 16px;
   border: 1px solid #ddd;
   border-radius: 5px; /* Rounded corners */
-  font-family: 'Lato', sans-serif;
+  font-family: 'Calibri', sans-serif;
   box-sizing: border-box; /* Include padding and border in the element's total width and height */
   margin-bottom: 10px; /* Space between input and button */
 }
@@ -287,18 +289,18 @@ path {
   width: 85%; /* Full width */
   padding: 10px 15px;
   font-size: 16px;
-  background-color: #004085;
+  background-color: #d07e30;
   color: #fff;
   border: none;
   border-radius: 5px; /* Rounded corners */
   cursor: pointer;
   transition: 0.5s;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Calibri', sans-serif;
   box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
 #search-button:hover {
-  background-color: #003366;
+  background-color: #6b4a37;
 }
 
 /* Modal Styling */
@@ -322,7 +324,7 @@ path {
   width: 50%; /* Could be more or less, depending on screen size */
   border-radius: 8px;
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Calibri', sans-serif;
 }
 
 /* Image inside the modal */
@@ -338,12 +340,12 @@ path {
 /* Button inside the modal */
 .modal-content button {
   display: inline-block; /* Inline-block for button alignment */
-  background-color: #004085; /* Dark blue */
+  background-color: #d07e30; /* Dark blue */
   color: #ffffff; /* White text */
   padding: 10px 20px; /* Add padding for a larger button */
   border: none; /* Remove border */
   border-radius: 5px; /* Rounded corners */
-  font-family: 'Lato', sans-serif; /* Use the same font as the modal */
+  font-family: 'Calibri', sans-serif; /* Use the same font as the modal */
   font-size: 14px; /* Adjust font size */
   cursor: pointer; /* Change cursor to pointer on hover */
   margin: 5px; /* Add margin between buttons */
@@ -394,7 +396,7 @@ path {
   display: flex;
   margin-top: 60px; /* Offset for fixed navbar */
   padding: 20px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Calibri', sans-serif;
   gap: 20px;
 }
 
@@ -407,7 +409,7 @@ path {
 
 .sidebar h3 {
   margin-bottom: 10px;
-  color: #004085;
+  color: #d07e30;
   font-weight: bold;
 }
 
@@ -428,7 +430,7 @@ path {
 }
 
 .create-post-btn {
-  background-color: #004085;
+  background-color: #d07e30;
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -454,7 +456,7 @@ path {
 .post h4 {
   margin: 0 0 10px;
   font-size: 16px;
-  color: #004085;
+  color: #d07e30;
 }
 
 .post p {
@@ -465,7 +467,7 @@ path {
 
 .see-more {
   font-size: 14px;
-  color: #004085;
+  color: #d07e30;
   text-decoration: underline;
   cursor: pointer;
 }
@@ -479,7 +481,7 @@ path {
 
 /* Highlight active link */
 .nav-links a.active {
-  color: #c2c2c2; /* Change the color of the active link */
+  color: #332519; /* Change the color of the active link */
   font-weight: bold; /* Make it bold */
 }
 
@@ -522,7 +524,7 @@ path {
 .search-forum-container button {
   padding: 10px 20px;
   font-size: 16px;
-  background-color: #004085;
+  background-color: #d07e30;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -551,7 +553,7 @@ path {
 
 .forum-post h3 {
   margin: 0;
-  color: #004085;
+  color: #d07e30;
   font-size: 24px;
 }
 
@@ -581,10 +583,10 @@ path {
 }
 
 label {
-  font-weight: bold;
+  font-family: 'Calibri Bold', sans-serif;
   margin-bottom: 8px;
   display: block;
-  color: #004085;
+  color: #d9d9d9;
   font-size: 20px;
   text-align: left;
 }
@@ -593,7 +595,7 @@ label {
   text-align: center;
   margin-bottom: 20px;
   font-family: 'Black Mango Bold', sans-serif;
-  color: #004085;
+  color: #d07e30;
   font-size: 35px;
   margin-top: 10px;
 }
@@ -613,7 +615,7 @@ label {
   margin-bottom: 15px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Calibri', sans-serif;
   font-size: 16px;
 }
 
@@ -623,6 +625,23 @@ label {
 
 .main-content .forum-actions .modal .modal-content select{
   width: 99%; /* Ensures the dropdown takes up most of the container */
-  font-family: 'Lato', sans-serif; /* Consistent font */
+  font-family: 'Calibri', sans-serif; /* Consistent font */
   font-size: 16px; /* Size of the text */
+}
+
+div.map-container {
+  background-color: #08312e;
+}
+
+div#svg-container {
+  background-color: #08312e;
+}
+
+.modal-content h2 {
+  color: #d07e30;
+  font-family: 'Black Mango Bold', sans-serif;
+}
+
+p.item-description {
+  color: #332519;
 }

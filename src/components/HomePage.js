@@ -21,13 +21,13 @@ return (
             <div className="nav-links">
                 <Link to="/home" className="active">Trang Chủ</Link>
                 <Link to="/forum" id="forum-link">Diễn Đàn</Link>
-                <a href="#local-matching">Kết Nối Bản Địa</a>
-                <a href="#plan-food-tour">Lên Kế Hoạch Tour Ẩm Thực</a>
-                <a href="#pricing">Bảng Giá</a>
+                <a>Kết Nối Bản Địa</a>
+                <a>Lên Kế Hoạch Tour Ẩm Thực</a>
+                <a>Bảng Giá</a>
             </div>
             <div className="auth-links">
-                <a href="#sign-up">Đăng Ký</a>
-                <a href="#log-in">Đăng Nhập</a>
+                <a>Đăng Ký</a>
+                <a>Đăng Nhập</a>
             </div>
       </div>
 
