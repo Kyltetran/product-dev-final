@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/product-dev-final/static/css/main.e45fdcb8.css",
-    "main.js": "/product-dev-final/static/js/main.6cd9c49d.js",
+    "main.css": "/product-dev-final/static/css/main.2bc0edda.css",
+    "main.js": "/product-dev-final/static/js/main.17c96881.js",
+    "static/media/calibri.ttf": "/product-dev-final/static/media/calibri.5051e9c44ad675ae413d.ttf",
+    "static/media/calibrib.ttf": "/product-dev-final/static/media/calibrib.ef9b8d6950fd26d414e2.ttf",
     "static/media/BlackMango-Bold.otf": "/product-dev-final/static/media/BlackMango-Bold.05a230d29636e02ddf4e.otf",
     "index.html": "/product-dev-final/index.html",
-    "main.e45fdcb8.css.map": "/product-dev-final/static/css/main.e45fdcb8.css.map",
-    "main.6cd9c49d.js.map": "/product-dev-final/static/js/main.6cd9c49d.js.map"
+    "main.2bc0edda.css.map": "/product-dev-final/static/css/main.2bc0edda.css.map",
+    "main.17c96881.js.map": "/product-dev-final/static/js/main.17c96881.js.map"
   },
   "entrypoints": [
-    "static/css/main.e45fdcb8.css",
-    "static/js/main.6cd9c49d.js"
+    "static/css/main.2bc0edda.css",
+    "static/js/main.17c96881.js"
   ]
 }
