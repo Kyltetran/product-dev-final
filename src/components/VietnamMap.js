@@ -1,6 +1,7 @@
 // src/components/VietnamMap.js
 import React, { useEffect } from 'react';
 import './style.css'; // Import your custom styles for the map
+import './map.css';
 
 const VietnamMap = () => {
   useEffect(() => {
@@ -75,10 +76,53 @@ const VietnamMap = () => {
 
           // Show modal when a region is clicked
           region.addEventListener('click', () => {
-            const regionName = region.getAttribute('title');
+            const regionName = region.getAttribute('title'); // Get the region name from title attribute
+            const regionId = region.getAttribute('id'); // Get the region id (e.g., 'VN-HN')
+          
             regionDetails.textContent = regionName;
             modal.style.display = 'block';
-            modalContent.innerHTML = `<h2>${regionName}</h2><p>Details about ${regionName}...</p>`;
+            
+            // If Ha Noi is clicked (using title or id)
+            if (regionId === "VN-HN" || regionName === "Hà Nội") {
+              const modalContentContainer = document.createElement('div'); // Create a container for images and descriptions
+              modalContentContainer.classList.add('modal-content-container'); // Add a CSS class for styling
+              
+              // Define images and descriptions for Ha Noi
+              const items = [
+                { image: '/images/bun_cha_Ha_Noi.png', description: 'Bún chả là món ăn đặc trưng của Hà Nội, với chả nướng thơm, ăn kèm bún tươi, rau sống và nước mắm chua ngọt.' },
+                { image: '/images/bun_dau_mam_tom_Ha_Noi.png', description: 'Bún đậu mắm tôm là món ăn gồm đậu phụ chiên giòn, bún tươi và mắm tôm đậm đà, tạo nên hương vị hấp dẫn.' },
+                { image: '/images/com_Ha_Noi.png', description: 'Xôi xéo là món xôi dẻo, đậu xanh và hành phi, ăn sáng là hết sảy, ngon mà no lâu.' },
+                { image: '/images/bun_oc_nguoi_Ha_Noi.png', description: 'Bún ốc nguội là món bún tươi ăn với ốc giòn, nước dùng thanh thanh, ngon cực kỳ vào những ngày nóng.' },
+                { image: '/images/xoi_xeo_Ha_Noi.png', description: 'Cốm Hà Nội là đặc sản mùa thu, cốm dẻo thơm, ăn cùng chuối chín là chuẩn nhất.' },
+                { image: '/images/bun_moc_Ha_Noi.png', description: 'Bún mọc sườn là bún ăn kèm với sườn ninh mềm và mọc chả nấm, vị ngọt thanh, đậm đà, ai ăn một lần là mê.' }
+              ];
+          
+              // Loop over each item and create its content
+              items.forEach(item => {
+                const itemContainer = document.createElement('div'); // Create a container for each image and description
+                itemContainer.classList.add('item-container'); // Add class for each item
+          
+                const image = document.createElement('img');
+                image.src = item.image;
+                image.alt = item.description;
+                image.classList.add('item-image'); // Add class for styling image
+          
+                const description = document.createElement('p');
+                description.textContent = item.description;
+                description.classList.add('item-description'); // Add class for styling description
+          
+                itemContainer.appendChild(image);
+                itemContainer.appendChild(description);
+                modalContentContainer.appendChild(itemContainer);
+              });
+          
+              // Append the container to the modal content
+              modalContent.innerHTML = '<h2>Ẩm thực Hà Nội</h2>'; // Clear any existing content
+              modalContent.appendChild(modalContentContainer);
+            } else {
+              // Default modal content for other regions
+              modalContent.innerHTML = `<h2>${regionName}</h2><p>Details about ${regionName}...</p>`;
+            }
           });
         });
 

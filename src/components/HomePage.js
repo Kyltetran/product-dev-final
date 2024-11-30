@@ -15,110 +15,76 @@ const HomePage = () => {
     
 return (
     <div className="homepage">
-    {/* Navigation Bar */}
-    <div className="navbar">
-        <div className="logo">Group 2</div>
+        {/* Navigation Bar */}
+        <div className="navbar">
+            <div className="logo">Group 2</div>
             <div className="nav-links">
-                <Link to="/home" className="active">Home</Link>
-                <Link to="/forum" id="forum-link">Forum</Link>
-                <a href="#local-matching">Local Matching</a>
-                <a href="#plan-food-tour">Plan Food Tour</a>
-                <a href="#pricing">Pricing</a>
+                <Link to="/home" className="active">Trang Chủ</Link>
+                <Link to="/forum" id="forum-link">Diễn Đàn</Link>
+                <a href="#local-matching">Kết Nối Bản Địa</a>
+                <a href="#plan-food-tour">Lên Kế Hoạch Tour Ẩm Thực</a>
+                <a href="#pricing">Bảng Giá</a>
             </div>
             <div className="auth-links">
-                <a href="#sign-up">Sign Up</a>
-                <a href="#log-in">Log In</a>
-        </div>
-    </div>
+                <a href="#sign-up">Đăng Ký</a>
+                <a href="#log-in">Đăng Nhập</a>
+            </div>
+      </div>
 
-    {/* Introduction Section */}
-    <div className="intro-container">
-        <h1>Interactive Vietnam Map</h1>
-        <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio
-        consequuntur natus voluptate in, ea ex, ab quo necessitatibus laudantium,
-        vero totam provident perspiciatis? Odio quo, repudiandae quas nihil
-        ducimus laudantium? Esse ipsa ab numquam accusamus eveniet nisi corporis
-        consequatur autem.
-        </p>
-        <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio
-        consequuntur natus voluptate in, ea ex, ab quo necessitatibus laudantium,
-        vero totam provident perspiciatis? Odio quo, repudiandae quas nihil
-        ducimus laudantium? Esse ipsa ab numquam accusamus eveniet nisi corporis
-        consequatur autem.
-        </p>
-        <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio
-        consequuntur natus voluptate in, ea ex, ab quo necessitatibus laudantium,
-        vero totam provident perspiciatis? Odio quo, repudiandae quas nihil
-        ducimus laudantium? Esse ipsa ab numquam accusamus eveniet nisi corporis
-        consequatur autem.
-        </p>
-    </div>
-
-    {/* Question Section */}
-    <div class="question-container">
-        <h2>What are you looking for?</h2>
-        <div class="buttons">
-            <button id="regions-exploration">Regions Exploration</button>
-            <button id="discussion" onClick={handleButtonClick}>Discussion</button>
-            <button id="local-matching">Local Matching</button>
-            <button id="food-tour-planning">Food Tour Planning</button>
-        </div>
-    </div>
-
-    <div class="map-wrapper">
-        <div class="map-container" id="map">
-            <div id="svg-container"></div>
-            <div id="tooltip" class="tooltip"></div>
+        {/* Introduction Section */}
+        <div className="intro-container">
+            <h1>Khám phá Ẩm thực Việt</h1>
+            <p>
+            Khám phá ẩm thực Việt Nam qua từng vùng miền là một hành trình không thể bỏ qua. Từ những món ăn truyền thống của miền Bắc như phở, bún chả, đến các món đặc sản miền Trung như bún bò Huế, cơm hến, hay hương vị đậm đà của cơm tấm và hủ tiếu miền Nam. Chức năng "Diễn đàn" cho phép bạn kết nối và thảo luận với những người đam mê ẩm thực từ khắp mọi miền đất nước. Bạn có thể chia sẻ những món ăn yêu thích, học hỏi bí quyết nấu nướng, hoặc đơn giản là thảo luận về những địa điểm ăn uống ngon lành. Đây là cơ hội tuyệt vời để khám phá thêm những món ăn mới lạ và cùng bạn bè trải nghiệm sự đa dạng của nền ẩm thực Việt Nam.
+            </p>
+            <p>
+            Khám phá ẩm thực qua lời kể của những người dân bản địa sẽ giúp bạn hiểu rõ hơn về hương vị và câu chuyện phía sau mỗi món ăn. Bạn sẽ có thể nghe những câu chuyện thú vị về các món ăn, tìm hiểu nguồn gốc và các truyền thống ẩm thực lâu đời, đồng thời có cơ hội giao lưu và kết nối với người dân địa phương, qua đó làm phong phú thêm hành trình khám phá văn hóa ẩm thực của mình.
+            </p>
+            <p>
+            Với tính năng "Lên Kế Hoạch Tour Ẩm Thực", bạn có thể dễ dàng lên kế hoạch cho một hành trình khám phá ẩm thực hoàn hảo. Dù bạn đang tìm kiếm một tour ăn uống tại một thành phố, hay chỉ đơn giản là muốn khám phá các món ăn đặc trưng của một vùng miền, chức năng này giúp bạn lên lịch trình chi tiết với các địa điểm ăn uống hấp dẫn và các món ăn không thể bỏ qua. Tận hưởng một chuyến đi ẩm thực đầy thú vị và khó quên ngay hôm nay!
+            </p>
         </div>
 
-        <div class="info-container">
-            <h2>This is the map that you can...</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, quibusdam alias, dolore aut recusandae odit sapiente quasi deleniti obcaecati praesentium voluptatibus doloremque omnis accusamus assumenda odio culpa ab atque sed.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet natus tempora labore amet unde consectetur aut quia eligendi? Deleniti impedit alias tenetur molestias aliquam fugiat possimus laudantium ab? Molestias, ratione!</p>
-
-            <div class="search-container">
-                <input type="text" id="region-search" placeholder="Search for a region..." />
-                <button id="search-button">Search</button>
+        {/* Question Section */}
+        <div class="question-container">
+            <h2>Bạn muốn khám phá gì?</h2>
+            <div class="buttons">
+                <button id="regions-exploration">Bạn muốn đi đâu?</button>
+                <button id="discussion" onClick={handleButtonClick}>Cộng đồng</button>
+                <button id="local-matching">Kết Nối Với Người Bản Địa</button>
+                <button id="food-tour-planning">Lên Kế Hoạch Tour Ẩm Thực</button>
             </div>
         </div>
-    </div>
 
-    <div id="region-modal" class="modal">
-        <div class="modal-content">
-            <span id="close-modal" class="close">&times;</span>
-            <p id="modal-content">Region information will appear here.</p>
-        </div>
-    </div>
-
-    <div className="map-container">
-        <VietnamMap /> {/* Embed the VietnamMap component */}
-    </div>
-
-    {/* <div id="region-details" style="display: none;">
-        <div id="VN-HN">
-            <h2>Hà Nội</h2>
-            <p>Welcome to Hà Nội, the capital of Vietnam! Known for its rich history, culture, and bustling streets.</p>
-            <div class="popup-map" id="hanoi-map-container">
-                <img src="regions/hanoi.svg" alt="Hà Nội" class="hanoi-map-img" />
+        <div class="map-wrapper">
+            <div class="map-container" id="map">
+                <div id="svg-container"></div>
+                <div id="tooltip" class="tooltip"></div>
             </div>
-            <button onclick="alert('Explore Hanoi!')">Explore More</button>
+
+            <div class="info-container">
+                <h2>Đây là bản đồ Việt Nam...</h2>
+                <p>Nơi bạn có thể dễ dàng tương tác và khám phá các điểm đến ẩm thực đặc trưng của từng vùng miền. Chỉ cần nhập tên địa phương bạn muốn tìm, bản đồ sẽ hiển thị các địa điểm nổi bật để bạn lựa chọn. Khi bạn nhấp vào một địa phương, bạn sẽ nhận được những thông tin thú vị về các món ăn đặc sản của khu vực đó, các mẹo vặt về cách chế biến, cũng như những câu chuyện văn hóa liên quan đến ẩm thực tại địa phương đó. Hãy bắt đầu hành trình khám phá ẩm thực Việt Nam ngay hôm nay!</p>
+
+                <div class="search-container">
+                    <input type="text" id="region-search" placeholder="Nhập nơi bạn muốn tới..." />
+                    <button id="search-button">Tìm kiếm</button>
+                </div>
+            </div>
         </div>
-        <div id="VN-32">
-            <h2>Phú Yên</h2>
-            <p>Welcome to Phú Yên, known for its stunning beaches and breathtaking landscapes!</p>
+
+        <div id="region-modal" class="modal">
+            <div class="modal-content">
+                <span id="close-modal" class="close">&times;</span>
+                <p id="modal-content">Region information will appear here.</p>
+            </div>
         </div>
-        <div id="VN-27">
-            <h2>Quảng Nam</h2>
-            <p>Welcome to Quảng Nam, home of Hội An Ancient Town and My Son Sanctuary!</p>
+
+        <div className="map-container">
+            <VietnamMap /> {/* Embed the VietnamMap component */}
         </div>
-    </div> */}
-    
-    {/* Add any other sections you'd like, e.g., features, about, etc. */}
     </div>
-);
+    );
 };
 
 export default HomePage;

@@ -60,24 +60,24 @@ const ForumPage = () => {
       <div className="navbar">
         <div className="logo">Group 2</div>
         <div className="nav-links">
-          <Link to="/home">Home</Link>
-          <Link to="/forum" id="forum-link" className="active">Forum</Link>
-          <a href="#local-matching">Local Matching</a>
-          <a href="#plan-food-tour">Plan Food Tour</a>
-          <a href="#pricing">Pricing</a>
+          <Link to="/home">Trang Chủ</Link>
+          <Link to="/forum" id="forum-link" className="active">Diễn Đàn</Link>
+          <a href="#local-matching">Kết Nối Bản Địa</a>
+          <a href="#plan-food-tour">Lên Kế Hoạch Tour Ẩm Thực</a>
+          <a href="#pricing">Bảng Giá</a>
         </div>
         <div className="auth-links">
-          <a href="#sign-up">Sign Up</a>
-          <a href="#log-in">Log In</a>
+          <a href="#sign-up">Đăng Ký</a>
+          <a href="#log-in">Đăng Nhập</a>
         </div>
       </div>
 
       {/* Forum Content */}
       <div className="forum-container">
         <form onSubmit={handlePostSubmit}>
-          <h2>Create a New Post</h2>
+          <h2>Tạo bài viết mới</h2>
           <div className="input-group">
-            <label htmlFor="title">Title</label>
+            <label htmlFor="title">Tiêu đề</label>
             <input
               type="text"
               id="title"
@@ -89,7 +89,7 @@ const ForumPage = () => {
           </div>
           
           <div className="input-group">
-            <label htmlFor="content">Content</label>
+            <label htmlFor="content">Nội dung</label>
             <textarea
               id="content"
               name="content"
@@ -100,7 +100,7 @@ const ForumPage = () => {
           </div>
 
           <div className="input-group">
-            <label htmlFor="category">Category</label>
+            <label htmlFor="category">Danh mục</label>
             <select
               id="category"
               name="category"
@@ -108,7 +108,7 @@ const ForumPage = () => {
               onChange={handleInputChange}
               required
             >
-              <option value="">Select a category</option>
+              <option value="">Chọn danh mục</option>
               <option value="lich-su-mon-an">#lịch sử món ăn</option>
               <option value="quan-an-ngon">#quán ăn ngon</option>
               <option value="cong-thuc">#công thức</option>
@@ -118,19 +118,19 @@ const ForumPage = () => {
             </select>
           </div>
 
-          <button type="submit">Post</button>
+          <button type="submit">Đăng</button>
         </form>
       </div>
 
       <div className="posts-list">
-        <h3>Recent Posts</h3>
+        <h3>Bài viết hiện tại</h3>
         <div className="posts">
           {posts.map(post => (
             <div key={post.id} className="post-card">
               <h4>{post.title}</h4>
-              <p><strong>Category:</strong> {post.category}</p>
+              <p><strong>Danh mục:</strong> {post.category}</p>
               <p>{post.content}</p>
-              <small><em>Posted by {post.author}</em></small>
+              <small><em>Đăng bởi {post.author}</em></small>
             </div>
           ))}
         </div>

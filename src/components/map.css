@@ -1,0 +1,45 @@
+/* Container for modal content */
+.modal-content-container {
+    display: flex;
+    flex-wrap: wrap;  /* Wrap items to the next line if needed */
+    justify-content: space-between; /* Space out the items */
+    gap: 20px;  /* Add space between items */
+    padding: 20px;
+  }
+  
+  /* Each item container (image + description) */
+  .item-container {
+    display: flex;
+    flex-direction: column; /* Arrange image and description vertically */
+    align-items: center;    /* Center align image and description */
+    width: 200px;           /* Set fixed width for each item */
+    transition: transform 0.3s ease; /* Optional: Smooth transition for the whole container */
+  }
+  
+  /* Style for the images */
+  .item-image {
+    width: 100%;           /* Make image fill the container */
+    height: auto;
+    margin-bottom: 10px;    /* Space between image and description */
+    transition: transform 0.3s ease, opacity 0.3s ease;  /* Add transition for scaling and opacity */
+  }
+  
+  /* Hover effect for image */
+  .item-image:hover {
+    transform: scale(1.1);  /* Slightly scale the image */
+    opacity: 0.9;           /* Change the opacity when hovering */
+  }
+  
+  /* Style for the description */
+  .item-description {
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Optional: Add a slight effect when hovering over the item container */
+  .item-container:hover {
+    transform: scale(1.05);  /* Slightly enlarge the item container when hovering */
+    cursor: pointer;         /* Change cursor to pointer to indicate clickability */
+  }
+  
