@@ -94,7 +94,8 @@ const VietnamMap = () => {
                 { image: `${process.env.PUBLIC_URL}/images/com_Ha_Noi.png`, description: 'Xôi xéo là món xôi dẻo, đậu xanh và hành phi, ăn sáng là hết sảy, ngon mà no lâu.' },
                 { image: `${process.env.PUBLIC_URL}/images/bun_oc_nguoi_Ha_Noi.png`, description: 'Bún ốc nguội là món bún tươi ăn với ốc giòn, nước dùng thanh thanh, ngon cực kỳ vào những ngày nóng.' },
                 { image: `${process.env.PUBLIC_URL}/images/xoi_xeo_Ha_Noi.png`, description: 'Cốm Hà Nội là đặc sản mùa thu, cốm dẻo thơm, ăn cùng chuối chín là chuẩn nhất.' },
-                { image: `${process.env.PUBLIC_URL}/images/bun_moc_Ha_Noi.png`, description: 'Bún mọc sườn là bún ăn kèm với sườn ninh mềm và mọc chả nấm, vị ngọt thanh, đậm đà, ai ăn một lần là mê.' }
+                { image: `${process.env.PUBLIC_URL}/images/bun_moc_Ha_Noi.png`, description: 'Bún mọc sườn là bún ăn kèm với sườn ninh mềm và mọc chả nấm, vị ngọt thanh, đậm đà, ai ăn một lần là mê.' },
+                { image: `${process.env.PUBLIC_URL}/images/banh_canh_he_Phu_Yen.png`, description: 'Món bánh canh đặc trưng của Phú Yên, với sợi bánh canh mềm dai kết hợp cùng nước dùng thanh ngọt từ xương heo và hẹ tươi, ăn kèm với chả cá và trứng cút.' }
               ];
           
               // Loop over each item and create its content
