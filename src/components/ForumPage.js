@@ -62,7 +62,7 @@ const ForumPage = () => {
         <div className="nav-links">
           <Link to="/home">Trang Chủ</Link>
           <Link to="/forum" id="forum-link" className="active">Diễn Đàn</Link>
-          <a href="#local-matching">Kết Nối Bản Địa</a>
+          <a>Kết Nối Bản Địa</a>
           <a>Lên Kế Hoạch Tour Ẩm Thực</a>
           <a>Bảng Giá</a>
         </div>
