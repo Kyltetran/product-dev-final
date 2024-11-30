@@ -59,8 +59,8 @@ const ForumPage = () => {
       <div className="navbar">
         <div className="logo">Group 2</div>
         <div className="nav-links">
-          <a href="/">Home</a>
-          <a href="/forum" className="active">Forum</a>
+          <Link to="/home">Home</Link>
+          <Link to="/forum" id="forum-link" className="active">Forum</Link>
           <a href="#local-matching">Local Matching</a>
           <a href="#plan-food-tour">Plan Food Tour</a>
           <a href="#pricing">Pricing</a>
