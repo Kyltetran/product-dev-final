@@ -154,41 +154,41 @@ const VietnamMap = () => {
               // Append the container to the modal content
               modalContent.innerHTML = '<h2>Ẩm thực Phú Yên</h2>'; // Clear any existing content
               modalContent.appendChild(modalContentContainer);
-            } else if (regionId === "VN-27" || regionName === "Quảng Nam") {
-              const modalContentContainer = document.createElement('div'); // Create a container for images and descriptions
-              modalContentContainer.classList.add('modal-content-container'); // Add a CSS class for styling
+            // } else if (regionId === "VN-27" || regionName === "Quảng Nam") {
+            //   const modalContentContainer = document.createElement('div'); // Create a container for images and descriptions
+            //   modalContentContainer.classList.add('modal-content-container'); // Add a CSS class for styling
 
-              const items = [
-                { image: `${process.env.PUBLIC_URL}/images/be_thui_quang_nam.png`, description: 'Bê thui Quảng Nam là món thịt bê nướng thơm lừng, ăn kèm với rau sống, bánh tráng cuốn và nước mắm tỏi ớt, tạo nên hương vị đậm đà, hấp dẫn.' },
-                { image: `${process.env.PUBLIC_URL}/images/banh_trang_thit_heo_quang_nam.png`, description: 'Bánh tráng cuốn thịt heo luộc, rau sống, dưa leo, bún tươi và đặc biệt là nước mắm chua ngọt, tạo nên món ăn vặt thơm ngon, dễ ăn.' },
-                { image: `${process.env.PUBLIC_URL}/images/cao_lau_quang_nam.png`, description: 'Cao lầu là món mì đặc sản Hội An, với sợi mì dày dai, thịt heo xào, rau sống và nước dùng ninh từ xương heo, tạo nên một món ăn đậm đà, khó quên.' },
-                { image: `${process.env.PUBLIC_URL}/images/com_ga_tam_ky_quang_nam.png`, description: 'Cơm gà Tam Kỳ là món ăn gồm thịt gà luộc mềm, cơm trắng dẻo và nước mắm pha tỏi ớt, kèm với một ít rau sống tươi ngon.' },
-                { image: `${process.env.PUBLIC_URL}/images/mi_quang_quang_nam.png`, description: 'Mì Quảng có sợi mì vàng, nước dùng ngọt từ xương, thịt heo, tôm, trứng, ăn kèm với rau sống, đậu phộng và bánh tráng nướng giòn.' },
-                { image: `${process.env.PUBLIC_URL}/images/ram_tom_quang_nam.png`, description: 'Ram tôm là món chả giò cuốn nhân tôm tươi, thịt heo băm nhỏ, rau thơm, chiên giòn và ăn kèm với rau sống, nước mắm chua ngọt.' }
-              ];
+            //   const items = [
+            //     { image: `${process.env.PUBLIC_URL}/images/be_thui_quang_nam.png`, description: 'Bê thui Quảng Nam là món thịt bê nướng thơm lừng, ăn kèm với rau sống, bánh tráng cuốn và nước mắm tỏi ớt, tạo nên hương vị đậm đà, hấp dẫn.' },
+            //     { image: `${process.env.PUBLIC_URL}/images/banh_trang_thit_heo_quang_nam.png`, description: 'Bánh tráng cuốn thịt heo luộc, rau sống, dưa leo, bún tươi và đặc biệt là nước mắm chua ngọt, tạo nên món ăn vặt thơm ngon, dễ ăn.' },
+            //     { image: `${process.env.PUBLIC_URL}/images/cao_lau_quang_nam.png`, description: 'Cao lầu là món mì đặc sản Hội An, với sợi mì dày dai, thịt heo xào, rau sống và nước dùng ninh từ xương heo, tạo nên một món ăn đậm đà, khó quên.' },
+            //     { image: `${process.env.PUBLIC_URL}/images/com_ga_tam_ky_quang_nam.png`, description: 'Cơm gà Tam Kỳ là món ăn gồm thịt gà luộc mềm, cơm trắng dẻo và nước mắm pha tỏi ớt, kèm với một ít rau sống tươi ngon.' },
+            //     { image: `${process.env.PUBLIC_URL}/images/mi_quang_quang_nam.png`, description: 'Mì Quảng có sợi mì vàng, nước dùng ngọt từ xương, thịt heo, tôm, trứng, ăn kèm với rau sống, đậu phộng và bánh tráng nướng giòn.' },
+            //     { image: `${process.env.PUBLIC_URL}/images/ram_tom_quang_nam.png`, description: 'Ram tôm là món chả giò cuốn nhân tôm tươi, thịt heo băm nhỏ, rau thơm, chiên giòn và ăn kèm với rau sống, nước mắm chua ngọt.' }
+            //   ];
           
-              // Loop over each item and create its content
-              items.forEach(item => {
-                const itemContainer = document.createElement('div'); // Create a container for each image and description
-                itemContainer.classList.add('item-container'); // Add class for each item
+            //   // Loop over each item and create its content
+            //   items.forEach(item => {
+            //     const itemContainer = document.createElement('div'); // Create a container for each image and description
+            //     itemContainer.classList.add('item-container'); // Add class for each item
           
-                const image = document.createElement('img');
-                image.src = item.image;
-                image.alt = item.description;
-                image.classList.add('item-image'); // Add class for styling image
+            //     const image = document.createElement('img');
+            //     image.src = item.image;
+            //     image.alt = item.description;
+            //     image.classList.add('item-image'); // Add class for styling image
           
-                const description = document.createElement('p');
-                description.textContent = item.description;
-                description.classList.add('item-description'); // Add class for styling description
+            //     const description = document.createElement('p');
+            //     description.textContent = item.description;
+            //     description.classList.add('item-description'); // Add class for styling description
           
-                itemContainer.appendChild(image);
-                itemContainer.appendChild(description);
-                modalContentContainer.appendChild(itemContainer);
-              });
+            //     itemContainer.appendChild(image);
+            //     itemContainer.appendChild(description);
+            //     modalContentContainer.appendChild(itemContainer);
+            //   });
           
-              // Append the container to the modal content
-              modalContent.innerHTML = '<h2>Ẩm thực Quảng Nam</h2>'; // Clear any existing content
-              modalContent.appendChild(modalContentContainer);
+            //   // Append the container to the modal content
+            //   modalContent.innerHTML = '<h2>Ẩm thực Quảng Nam</h2>'; // Clear any existing content
+            //   modalContent.appendChild(modalContentContainer);
             } else {
               // Default modal content for other regions
               modalContent.innerHTML = `<h2>${regionName}</h2><p>Details about ${regionName}...</p>`;
