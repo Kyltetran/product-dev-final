@@ -15,13 +15,13 @@ function App() {
               <div className="nav-links">
                   <a href="#home" className="active">Home</a>
                   <a href="/forum" id="forum-link">Forum</a>
-                  <a href="#local-matching">Local Matching</a>
-                  <a href="#plan-food-tour">Plan Food Tour</a>
-                  <a href="#pricing">Pricing</a>
+                  <a>Local Matching</a>
+                  <a>Plan Food Tour</a>
+                  <a>Pricing</a>
               </div>
               <div className="auth-links">
-                  <a href="#sign-up">Sign Up</a>
-                  <a href="#log-in">Log In</a>
+                  <a>Sign Up</a>
+                  <a>Log In</a>
           </div>
         </nav>
 
