@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/product-dev-final/static/css/main.b7e425c8.css",
-    "main.js": "/product-dev-final/static/js/main.93708931.js",
+    "main.css": "/product-dev-final/static/css/main.e45fdcb8.css",
+    "main.js": "/product-dev-final/static/js/main.abba7839.js",
     "static/media/BlackMango-Bold.otf": "/product-dev-final/static/media/BlackMango-Bold.05a230d29636e02ddf4e.otf",
     "index.html": "/product-dev-final/index.html",
-    "main.b7e425c8.css.map": "/product-dev-final/static/css/main.b7e425c8.css.map",
-    "main.93708931.js.map": "/product-dev-final/static/js/main.93708931.js.map"
+    "main.e45fdcb8.css.map": "/product-dev-final/static/css/main.e45fdcb8.css.map",
+    "main.abba7839.js.map": "/product-dev-final/static/js/main.abba7839.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7e425c8.css",
-    "static/js/main.93708931.js"
+    "static/css/main.e45fdcb8.css",
+    "static/js/main.abba7839.js"
   ]
 }
