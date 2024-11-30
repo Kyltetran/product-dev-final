@@ -159,12 +159,12 @@ const VietnamMap = () => {
               modalContentContainer.classList.add('modal-content-container'); // Add a CSS class for styling
 
               const items = [
-                { image: `${process.env.PUBLIC_URL}/images/be_thui_quang_nam.png`, description: 'Bê thui Quảng Nam là món thịt bê nướng thơm lừng, ăn kèm với rau sống, bánh tráng cuốn và nước mắm tỏi ớt, tạo nên hương vị đậm đà, hấp dẫn.' },
-                { image: `${process.env.PUBLIC_URL}/images/banh_trang_thit_heo_quang_nam.png`, description: 'Bánh tráng cuốn thịt heo luộc, rau sống, dưa leo, bún tươi và đặc biệt là nước mắm chua ngọt, tạo nên món ăn vặt thơm ngon, dễ ăn.' },
-                { image: `${process.env.PUBLIC_URL}/images/cao_lau_quang_nam.png`, description: 'Cao lầu là món mì đặc sản Hội An, với sợi mì dày dai, thịt heo xào, rau sống và nước dùng ninh từ xương heo, tạo nên một món ăn đậm đà, khó quên.' },
-                { image: `${process.env.PUBLIC_URL}/images/com_ga_tam_ky_quang_nam.png`, description: 'Cơm gà Tam Kỳ là món ăn gồm thịt gà luộc mềm, cơm trắng dẻo và nước mắm pha tỏi ớt, kèm với một ít rau sống tươi ngon.' },
-                { image: `${process.env.PUBLIC_URL}/images/mi_quang_quang_nam.png`, description: 'Mì Quảng có sợi mì vàng, nước dùng ngọt từ xương, thịt heo, tôm, trứng, ăn kèm với rau sống, đậu phộng và bánh tráng nướng giòn.' },
-                { image: `${process.env.PUBLIC_URL}/images/ram_tom_quang_nam.png`, description: 'Ram tôm là món chả giò cuốn nhân tôm tươi, thịt heo băm nhỏ, rau thơm, chiên giòn và ăn kèm với rau sống, nước mắm chua ngọt.' }
+                { image: `${process.env.PUBLIC_URL}/images/be_thui_Quang_Nam.png`, description: 'Bê thui Quảng Nam là món thịt bê nướng thơm lừng, ăn kèm với rau sống, bánh tráng cuốn và nước mắm tỏi ớt, tạo nên hương vị đậm đà, hấp dẫn.' },
+                { image: `${process.env.PUBLIC_URL}/images/banh_trang_thit_heo_Quang_Nam.png`, description: 'Bánh tráng cuốn thịt heo luộc, rau sống, dưa leo, bún tươi và đặc biệt là nước mắm chua ngọt, tạo nên món ăn vặt thơm ngon, dễ ăn.' },
+                { image: `${process.env.PUBLIC_URL}/images/cao_lau_Quang_Nam.png`, description: 'Cao lầu là món mì đặc sản Hội An, với sợi mì dày dai, thịt heo xào, rau sống và nước dùng ninh từ xương heo, tạo nên một món ăn đậm đà, khó quên.' },
+                { image: `${process.env.PUBLIC_URL}/images/com_ga_tam_ky_Quang_Nam.png`, description: 'Cơm gà Tam Kỳ là món ăn gồm thịt gà luộc mềm, cơm trắng dẻo và nước mắm pha tỏi ớt, kèm với một ít rau sống tươi ngon.' },
+                { image: `${process.env.PUBLIC_URL}/images/mi_quang_Quang_Nam.png`, description: 'Mì Quảng có sợi mì vàng, nước dùng ngọt từ xương, thịt heo, tôm, trứng, ăn kèm với rau sống, đậu phộng và bánh tráng nướng giòn.' },
+                { image: `${process.env.PUBLIC_URL}/images/ram_tom_Quang_Nam.png`, description: 'Ram tôm là món chả giò cuốn nhân tôm tươi, thịt heo băm nhỏ, rau thơm, chiên giòn và ăn kèm với rau sống, nước mắm chua ngọt.' }
               ];
           
               // Loop over each item and create its content
