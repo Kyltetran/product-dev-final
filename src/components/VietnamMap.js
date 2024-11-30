@@ -89,12 +89,12 @@ const VietnamMap = () => {
               
               // Define images and descriptions for Ha Noi
               const items = [
-                { image: '/images/bun_cha_Ha_Noi.png', description: 'Bún chả là món ăn đặc trưng của Hà Nội, với chả nướng thơm, ăn kèm bún tươi, rau sống và nước mắm chua ngọt.' },
-                { image: '/images/bun_dau_mam_tom_Ha_Noi.png', description: 'Bún đậu mắm tôm là món ăn gồm đậu phụ chiên giòn, bún tươi và mắm tôm đậm đà, tạo nên hương vị hấp dẫn.' },
-                { image: '/images/com_Ha_Noi.png', description: 'Xôi xéo là món xôi dẻo, đậu xanh và hành phi, ăn sáng là hết sảy, ngon mà no lâu.' },
-                { image: '/images/bun_oc_nguoi_Ha_Noi.png', description: 'Bún ốc nguội là món bún tươi ăn với ốc giòn, nước dùng thanh thanh, ngon cực kỳ vào những ngày nóng.' },
-                { image: '/images/xoi_xeo_Ha_Noi.png', description: 'Cốm Hà Nội là đặc sản mùa thu, cốm dẻo thơm, ăn cùng chuối chín là chuẩn nhất.' },
-                { image: '/images/bun_moc_Ha_Noi.png', description: 'Bún mọc sườn là bún ăn kèm với sườn ninh mềm và mọc chả nấm, vị ngọt thanh, đậm đà, ai ăn một lần là mê.' }
+                { image: '${process.env.PUBLIC_URL}/images/bun_cha_Ha_Noi.png', description: 'Bún chả là món ăn đặc trưng của Hà Nội, với chả nướng thơm, ăn kèm bún tươi, rau sống và nước mắm chua ngọt.' },
+                { image: '${process.env.PUBLIC_URL}/images/bun_dau_mam_tom_Ha_Noi.png', description: 'Bún đậu mắm tôm là món ăn gồm đậu phụ chiên giòn, bún tươi và mắm tôm đậm đà, tạo nên hương vị hấp dẫn.' },
+                { image: '${process.env.PUBLIC_URL}/images/com_Ha_Noi.png', description: 'Xôi xéo là món xôi dẻo, đậu xanh và hành phi, ăn sáng là hết sảy, ngon mà no lâu.' },
+                { image: '${process.env.PUBLIC_URL}/images/bun_oc_nguoi_Ha_Noi.png', description: 'Bún ốc nguội là món bún tươi ăn với ốc giòn, nước dùng thanh thanh, ngon cực kỳ vào những ngày nóng.' },
+                { image: '${process.env.PUBLIC_URL}/images/xoi_xeo_Ha_Noi.png', description: 'Cốm Hà Nội là đặc sản mùa thu, cốm dẻo thơm, ăn cùng chuối chín là chuẩn nhất.' },
+                { image: '${process.env.PUBLIC_URL}/images/bun_moc_Ha_Noi.png', description: 'Bún mọc sườn là bún ăn kèm với sườn ninh mềm và mọc chả nấm, vị ngọt thanh, đậm đà, ai ăn một lần là mê.' }
               ];
           
               // Loop over each item and create its content
