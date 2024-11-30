@@ -124,12 +124,12 @@ const VietnamMap = () => {
               modalContentContainer.classList.add('modal-content-container'); // Add a CSS class for styling
 
               const items = [
-                { image: `${process.env.PUBLIC_URL}/images/banh_canh_he_phu_yen.png`, description: 'Món bánh canh đặc trưng của Phú Yên, với sợi bánh canh mềm dai kết hợp cùng nước dùng thanh ngọt từ xương heo và hẹ tươi, ăn kèm với chả cá và trứng cút.' },
-                { image: `${process.env.PUBLIC_URL}/images/banh_hoi_long_heo_phu_yen.png`, description: 'Một món ăn sáng cực kỳ phổ biến ở Phú Yên. Bánh hỏi mềm mịn, ăn kèm với lòng heo xào giòn giòn, thịt heo luộc và nước mắm chua ngọt.' },
-                { image: `${process.env.PUBLIC_URL}/images/banh_trang_phu_yen.png`, description: 'Bánh tráng Hòa Đa có hương vị tự nhiên, không quá dày mà lại giòn tan, là món ăn kèm lý tưởng cho nhiều món ăn đặc sản của Phú Yên, từ các món nướng, gỏi cho đến các món ăn vặt.' },
-                { image: `${process.env.PUBLIC_URL}/images/bo_mot_nang_phu_yen.png`, description: 'Bò một nắng là món đặc sản Phú Yên được chế biến từ thịt bò tươi, phơi dưới ánh nắng mặt trời rồi nướng trên lửa than.' },
-                { image: `${process.env.PUBLIC_URL}/images/lau_ga_la_e_phu_yen.png`, description: 'Lẩu gà nấu cùng lá é tươi, mang đến hương vị thơm ngon, cay nồng, là món ăn đặc trưng không thể thiếu khi đến Phú Yên.' },
-                { image: `${process.env.PUBLIC_URL}/images/mat_ca_ngu_phu_yen.png`, description: 'Mắt cá ngừ đại dương nấu canh hoặc nướng, có vị ngọt tự nhiên và bổ dưỡng, là món ăn đặc sản của Phú Yên.' }
+                { image: `${process.env.PUBLIC_URL}/images/banh_canh_he_Phu_Yen.png`, description: 'Món bánh canh đặc trưng của Phú Yên, với sợi bánh canh mềm dai kết hợp cùng nước dùng thanh ngọt từ xương heo và hẹ tươi, ăn kèm với chả cá và trứng cút.' },
+                { image: `${process.env.PUBLIC_URL}/images/banh_hoi_long_heo_Phu_Yen.png`, description: 'Một món ăn sáng cực kỳ phổ biến ở Phú Yên. Bánh hỏi mềm mịn, ăn kèm với lòng heo xào giòn giòn, thịt heo luộc và nước mắm chua ngọt.' },
+                { image: `${process.env.PUBLIC_URL}/images/banh_trang_Phu_Yen.png`, description: 'Bánh tráng Hòa Đa có hương vị tự nhiên, không quá dày mà lại giòn tan, là món ăn kèm lý tưởng cho nhiều món ăn đặc sản của Phú Yên, từ các món nướng, gỏi cho đến các món ăn vặt.' },
+                { image: `${process.env.PUBLIC_URL}/images/bo_mot_nang_Phu_Yen.png`, description: 'Bò một nắng là món đặc sản Phú Yên được chế biến từ thịt bò tươi, phơi dưới ánh nắng mặt trời rồi nướng trên lửa than.' },
+                { image: `${process.env.PUBLIC_URL}/images/lau_ga_la_e_Phu_Yen.png`, description: 'Lẩu gà nấu cùng lá é tươi, mang đến hương vị thơm ngon, cay nồng, là món ăn đặc trưng không thể thiếu khi đến Phú Yên.' },
+                { image: `${process.env.PUBLIC_URL}/images/mat_ca_ngu_Phu_Yen.png`, description: 'Mắt cá ngừ đại dương nấu canh hoặc nướng, có vị ngọt tự nhiên và bổ dưỡng, là món ăn đặc sản của Phú Yên.' }
               ];
           
               // Loop over each item and create its content
