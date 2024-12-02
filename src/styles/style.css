@@ -186,6 +186,14 @@ path {
   margin: 0;
 }
 
+@font-face {
+  font-family: 'Blacker Sans Display';
+  src: url('fonts/blacker-sans-display-trial.bold.ttf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+  margin: 0;
+}
+
 .intro-container {
   display: flex;
   flex-direction: column;
@@ -197,7 +205,7 @@ path {
 }
 
 .intro-container h1 {
-  font-family: 'Black Mango Bold', sans-serif;
+  font-family: 'Blacker Sans Display', sans-serif;
   font-size: 48px;
   color: #d07e30;
   margin-top: 80px;
@@ -223,7 +231,7 @@ path {
 
 /* style h2 of the question-container to be the same as h1 */
 .question-container h2 {
-  font-family: 'Black Mango Bold', sans-serif;
+  font-family: 'Blacker Sans Display', sans-serif;
   font-size: 30px;
   color: #d07e30;
   margin-top: 0;
@@ -639,7 +647,7 @@ div#svg-container {
 
 .modal-content h2 {
   color: #d07e30;
-  font-family: 'Black Mango Bold', sans-serif;
+  font-family: 'Blacker Sans Display', sans-serif;
 }
 
 p.item-description {

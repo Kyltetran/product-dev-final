@@ -36,11 +36,19 @@
 /* Style for forum page header */
 .forum-container h2 {
     text-align: center;
+    justify-content: center;
     margin-bottom: 20px;
-    font-family: 'Black Mango Bold', sans-serif;
+    font-family: 'Blacker Sans Display', sans-serif;
     color: #d07e30;
     font-size: 35px;
     margin-top: 10px;
+}
+
+.forum-container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
 }
 
 .forum-container button {
@@ -63,7 +71,7 @@
 }
 
 .forum-container input[type="text"], textarea, select {
-    width: 115%;
+    width: 94%;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -75,12 +83,12 @@
 }
 
 .forum-container textarea {
-    width: 115%;
+    width: 94%;
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .forum-container select {
-    width: 123%;
+    width: 100%;
     min-width: 40%;
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -104,7 +112,7 @@
 .posts-list h3 {
     text-align: center;
     margin-bottom: 20px;
-    font-family: 'Black Mango Bold', sans-serif;
+    font-family: 'Blacker Sans Display', sans-serif;
     color: #d07e30;
     font-size: 35px;
     margin-top: 10px;
