@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/product-dev-final/static/css/main.2bc0edda.css",
-    "main.js": "/product-dev-final/static/js/main.b858c613.js",
+    "main.css": "/product-dev-final/static/css/main.fd2a5d74.css",
+    "main.js": "/product-dev-final/static/js/main.a6bd50a7.js",
     "static/media/calibri.ttf": "/product-dev-final/static/media/calibri.5051e9c44ad675ae413d.ttf",
     "static/media/calibrib.ttf": "/product-dev-final/static/media/calibrib.ef9b8d6950fd26d414e2.ttf",
+    "static/media/blacker-sans-display-trial.bold.ttf": "/product-dev-final/static/media/blacker-sans-display-trial.bold.b610281e8f1515b47205.ttf",
     "static/media/BlackMango-Bold.otf": "/product-dev-final/static/media/BlackMango-Bold.05a230d29636e02ddf4e.otf",
     "index.html": "/product-dev-final/index.html",
-    "main.2bc0edda.css.map": "/product-dev-final/static/css/main.2bc0edda.css.map",
-    "main.b858c613.js.map": "/product-dev-final/static/js/main.b858c613.js.map"
+    "main.fd2a5d74.css.map": "/product-dev-final/static/css/main.fd2a5d74.css.map",
+    "main.a6bd50a7.js.map": "/product-dev-final/static/js/main.a6bd50a7.js.map"
   },
   "entrypoints": [
-    "static/css/main.2bc0edda.css",
-    "static/js/main.b858c613.js"
+    "static/css/main.fd2a5d74.css",
+    "static/js/main.a6bd50a7.js"
   ]
 }
